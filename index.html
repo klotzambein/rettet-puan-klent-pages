@@ -9,8 +9,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" type="image/png" href="/favicon.png" />
 
-    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/index.js"></script>
@@ -40,10 +40,10 @@
             <div class="collapse navbar-collapse" id="myDefaultNavbar1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#letter">Link</a>
+                        <a href="#letter">Brief</a>
                     </li>
                     <li>
-                        <a href="#impressum">Link</a>
+                        <a href="#impressum">Impressum</a>
                     </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
@@ -58,7 +58,7 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-    <div class="container">
+    <div class="container-fluid">
         <section id="topImg">
             <div class="row">
                 <div class="box">
@@ -67,6 +67,8 @@
                 </div>
             </div>
         </section>
+    </div>
+    <div class="container">
         <section id="letter">
             <div class="row">
                 <blockquote class="letter">
@@ -87,9 +89,11 @@
                 </blockquote>
             </div>
         </section>
-        <section id="email">
-            <div class="row">
-                <div class="jumbotron">
+    </div>
+    <section id="email">
+        <div class="jumbotron">
+            <div class="container">
+                <div class="row">
                     <h2>Bitte Email</h2>
                     <div class="form-group">
                         <div class="input-group col-md-6">
@@ -102,8 +106,10 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <section id="imgGalery">
+        </div>
+    </section>
+    <section id="imgGalery" class="image-bg">
+        <div class="container">
             <div class="row">
                 <div id="myCarousel" class="carousel slide col-md-12" data-ride="carousel">
                     <!-- Indicators -->
@@ -115,28 +121,64 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="item active">
-                            <img src="img/puan-klent-front.jpg" alt="Los Angeles" width="100%"> </div>
+                            <img src="img/puan-klent-front.jpg" alt="front" width="100%"> </div>
                         <div class="item">
-                            <img src="img/puan-klent-aerial.jpg" alt="Chicago" width="100%"> </div>
+                            <img src="img/puan-klent-aerial.jpg" alt="aerial" width="100%"> </div>
                         <div class="item">
-                            <img src="img/puan-klent-sign.jpg" alt="New York" width="100%"> </div>
+                            <img src="img/puan-klent-sign.jpg" alt="sign" width="100%"> </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <section id="video">
-            <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/WtchskJzDco?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </div>
-        </section>
+            <section id="video">
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/WtchskJzDco?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+            </section>
+        </div>
+    </section>
+    <div class="container">
         <section id="impressum">
             <div class="row">
-                Impressum...
+                <div class="col-sm-12">
+                    <h3>Impressum</h3>
+                </div>
+                <div class="col-sm-6 bottom-text"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <b>Betreiber und Kontakt:</b>
+                    <br />Robin Kock
+                    <br />
+                    <br />Hinsbeker Berg 37
+                    <br />22399 Hamburg
+                    <br />
+                    <br />Telefonnummer: +49 17642053203
+                    <br />E-Mail-Adresse: robin@kock-hamburg.de
+                    <br />
+                    <br />
+                </div>
+                <div class="col-sm-6">
+                    <b>Bilder und Grafiken:</b>
+                    <br />Angaben der Quelle für verwendetes Bilder- und Grafikmaterial:
+                    <br />puan-klent.de, cosmas-und-damian-schule.essen.de
+                    <p>
+                        <b>Online-Streitbeilegung gemäß Art. 14 Abs. 1 ODR-VO</b>
+                        <br/>Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit, die Sie
+                        unter
+                        <a href='http://ec.europa.eu/consumers/odr/'>http://ec.europa.eu/consumers/odr/</a> finden.</p>
+                    <p>
+                        <i>Angaben gem. § 5 TMG</i>
+                    </p>
+                </div>
             </div>
         </section>
+    </div>
+    <div class="container-fluid footer-container">
         <section id="footer">
-            <div class="row">
-                &copy; 2018
+            <div class="footer">
+                <p>&copy; 2018 - Robin Kock
+                    <br>All rights reserved. Unauthorized use and/or duplication of this material without express and written
+                    permission from the author and/or owner is strictly prohibited. Links to this site may be used.</p>
             </div>
         </section>
     </div>
