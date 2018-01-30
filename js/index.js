@@ -12,4 +12,11 @@ $(function () {
 
         return false;
     });
+
+    $(".navbar-nav a").click(function (event) {
+        $(".navbar-collapse").collapse('hide');
+    });
+    $('#navBtn').click(function () {
+        $(".navbar-collapse").collapse('toggle');
+    });
 });
