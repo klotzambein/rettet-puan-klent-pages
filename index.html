@@ -7,6 +7,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <link rel="shortcut icon" type="image/png" href="/favicon.png" />
 
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -97,13 +98,14 @@
                     <h2>Bitte Email</h2>
                     <div class="form-group">
                         <div class="input-group col-md-6">
-                            <input type="email" class="form-control" placeholder="deine@email.de" name="email" id="emilInput">
+                            <input type="email" class="form-control" placeholder="deine@email.de" id="emailInput">
                             <div class="input-group-btn">
-                                <input class="btn btn-default" type="button" value="Submit">
+                                <input id="saveBtn" class="btn btn-default" type="submit" value="Unterschreiben" required>
                             </div>
                         </div>
-                        <small id="dateHelp" class="form-text text-muted">Wir geben ihre Email nicht an Dritte weiter und spiechern sie nur für die Dauer der Petition.</small>
+                        <small id="emailError" class="form-text text-danger"></small>
                     </div>
+                    <small id="dateHelp" class="form-text text-muted">Wir geben ihre Email nicht an Dritte weiter und spiechern sie nur für die Dauer der Petition.</small>
                 </div>
             </div>
         </div>
