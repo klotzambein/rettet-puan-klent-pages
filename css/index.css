@@ -64,3 +64,13 @@ blockquote.letter {
     display: table-cell;
     vertical-align: bottom;
 }
+
+.author {
+    margin-left: 4em;
+    font-size: smaller;
+}
+.author span {
+    display: inline-block;
+    margin-left: -1.5em;
+    width: 1.5em;
+}
