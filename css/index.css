@@ -80,9 +80,13 @@ blockquote.letter {
 }
 
 .konto {
+    margin-top: 0em;
     margin-left: 2em;
 }
 .cta {
     margin-left: 2em;
     font-size: large;
+}
+.spenden {
+    margin-top: 1.5em;
 }
