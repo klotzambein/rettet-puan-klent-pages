@@ -43,5 +43,5 @@ $(function () {
     $.getJSON("http://nodejs-mongo-persistent-rettet-puan-klent.7e14.starter-us-west-2.openshiftapps.com/api/count", function (data) {
         $('#counter').text(data.count);
     });
-    $("#myModal").modal('show');
+    //$("#myModal").modal('show');
 });
